@@ -22,6 +22,7 @@
 #
 
 PLATFORM_PATH := device/oppo/r11s
+ALLOW_MISSING_DEPENDENCIES = true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
