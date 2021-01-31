@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "repository": "android_vendor_qcom_opensource_commonsys",
+    "target_path": "vendor/qcom/opensource/commonsys"
   }
 ]
