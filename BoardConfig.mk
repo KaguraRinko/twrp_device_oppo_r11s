@@ -21,7 +21,7 @@
 # definition file).
 #
 
-PLATFORM_PATH := device/oppo/r11s
+PLATFORM_PATH := device/oppo/R11s
 ALLOW_MISSING_DEPENDENCIES = true
 
 # Bootloader
@@ -60,7 +60,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --second_offset 0x00f00000
-TARGET_PREBUILT_KERNEL := device/oppo/r11s/kernel
+TARGET_PREBUILT_KERNEL := device/oppo/R11s/kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 
@@ -82,7 +82,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/oppo/r11s/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/oppo/R11s/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TW_THEME := portrait_hdpi
