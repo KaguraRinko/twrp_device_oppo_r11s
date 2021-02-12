@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Release name
-PRODUCT_RELEASE_NAME := wayne
+PRODUCT_RELEASE_NAME := R11s
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit some common Omni stuff.
@@ -31,3 +31,14 @@ TARGET_VENDOR := OPPO
 TARGET_VENDOR_PRODUCT_NAME := R11s
 TARGET_VENDOR_DEVICE_NAME := R11s
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=R11s PRODUCT_NAME=R11s
+
+# ADB
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    persist.sys.usb.config=adb
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bionic.ld.warning=0
