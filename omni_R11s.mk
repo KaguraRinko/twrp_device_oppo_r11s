@@ -42,3 +42,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bionic.ld.warning=0
+
+# OPPO
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.build.version.sdk=28 \
+	ro.build.version.opporom=V6.0.1
